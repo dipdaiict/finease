@@ -1,36 +1,42 @@
 
-# Package / Project Name: Example: pypi_template
+# FinEase
+
+FinEase is a Python package for financial calculations and analysis.
 
 ## Installation
 
-You can install [Package] using pip:
+You can install FinEase using pip:
 
 ```
-pip install [Package]
+pip install finease
 ```
 
 ## Features
 
+- Simple Interest Calculator
+- Compound Interest Calculator
+- Loan EMI Calculator
+- Savings Goal Calculator
+- Dividend Yield Calculator
+- Percentage Change Calculator
+
 ## Documentation
 
-- Documentation: [Link to Documentation](https://github.com/yourusername/Package/docs)
-- Contribution Guidelines: [Link to Contribution Guidelines](https://github.com/yourusername/Package/contributing.md)
-- Bug Reports: [Link to Bug Reports](https://github.com/yourusername/Package/issues)
-- Report a Security Vulnerability: [Link to Security Vulnerability Reporting](https://github.com/yourusername/Package/security/advisories)
+- Documentation: [Link to Documentation](https://github.com/dipdaiict/finease/docs)
+- Contribution Guidelines: [Link to Contribution Guidelines](https://github.com/dipdaiict/finease/contributing.md)
+- Bug Reports: [Link to Bug Reports](https://github.com/dipdaiict/finease/issues)
+- Report a Security Vulnerability: [Link to Security Vulnerability Reporting](https://github.com/dipdaiict/finease/security/advisories)
 
 ## Testing
 ```
-
+python -c "import finease, sys; sys.exit(fincalc.test() is False)"
 ```
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername)
-- [Contributor 1](https://github.com/contributor1)
-- [Contributor 2](https://github.com/contributor2)
+- [Dip Patel](https://github.com/dipdaiict)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/Package/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/dipdaiict/finease//LICENSE) file for details.
 ```
-
