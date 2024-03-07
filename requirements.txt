@@ -1,8 +1,9 @@
 # Project Requirements(dependencies): with Version
-ipywidgets
-notebook
-ensure
-
-# Add other dependencies:
-
-- e .
+scipy==1.11.4
+notebook==7.1.1
+ensure==1.0.4
+ipywidgets==8.1.1
+numpy
+scikit-learn==1.3.2
+pytest
+-e .
