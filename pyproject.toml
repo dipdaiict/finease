@@ -1,0 +1,25 @@
+[build-system]
+# Configuration for the build system used by the project
+
+# Specify the requirements for the build system
+requires = ['setuptools>=42.0', "wheel"]
+
+# Specify the build backend to be used
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+# Configuration options for pytest testing framework
+
+# Specify the directories to search for tests and to run tests:
+testpaths = [
+    "tests"  # Look for tests in the "tests" directory
+]
+
+[tool.mypy]
+# Configuration options for mypy static type checker
+
+# Specify the directory where mypy should look for module files
+mypy_path = "src"
+
+# Specify whether mypy should ignore missing imports when checking types it ignore the raising errors.
+ignore_missing_imports = true

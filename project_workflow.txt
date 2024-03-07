@@ -1,0 +1,65 @@
+# Initialize the empty git repository. [git init]
+
+# Create empty README.md file. [touch README.md]
+
+# Add Content in README.md file.
+
+# Add all files in stagging area. [git add .]
+
+# First Commit. [git commit -m "Initialize repository and add README.md file"]
+
+# Remote Repo Created on Github.
+
+# Rename Cureent Brach Name as main. [git branch -M main]
+
+# Add Remote repository on local branch. [git remote add origin https://github.com/dipdaiict/fincalc.git]
+
+# Check the Configured Remote Repository. [git remote -v]
+
+# Push the changes to remote repo main branch. [git push -u origin main]
+
+# Add License MIT License. and .gitignore file on github repository.
+
+# Pull the remote repo to consistency. [git pull]
+
+# Made Changes in .gitignore. Add *.log line to ignore log files. and commit and push to remote repo.
+
+# Create template.py file add workflow for file creation. [touch template.py]
+
+# Run template.py [python template.py] and Give Proper Project Name. and Push the Changes to remote repo.
+
+# Add Required Library for Development as well as Production and Push the Changes to remote repo.
+
+# Writing Setup.py file with all information about the project. and Push the Changes to remote repo.
+
+# Write then pyproject.toml file which is important to build the pkg and Push the changes to remote repo.
+The pyproject.toml file is a configuration file used by Python projects to specify various settings and options related to 
+the project's build process and development tools.
+
+# Write Setup.cfg file and Push the changes to remote repo.
+The setup.cfg file is a configuration file commonly used in Python projects to 
+specify various settings and options for the packaging and distribution of the project.
+
+# Write init_setup.sh with all configuration about the project.
+The init_setup.sh script plays a crucial role in the setup and initialization process of a project.
+
+# Run init_setup.sh: [bash init_setup.sh]
+
+# Add Package Version in requirements_dev.txt and requirements.txt file. [pip freeze] Check the version of pkg.
+# Seperate Library Version Check:
+        pip show <library-name>
+or 
+        import <library-name>
+        print(<library-name>.__version__)
+
+# Run tox command to check test. [tox]
+
+# Add test file in Unit test Folder and integration Test. 
+# in integration: test_unit.py: unit tests verifying individual components' functionality
+# in unit test file: test_unit.py: integration TEST focuses on validating interactions between different modules, ensuring system-wide functionality and reliability.
+
+# Add Simple Fakes Test Function: When Write test function ensure that it start with test_ words:
+def test_empty():
+     assert True
+
+

@@ -1,0 +1,11 @@
+# Project Requirements (dependencies):
+
+
+
+# Development Requirements (dependencies):
+pytest==8.0.2
+tox==4.13.0
+black==24.2.0
+flake8==7.0.0
+mypy==1.8.0
+- e . # To Install Local Packages...

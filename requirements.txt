@@ -1,0 +1,8 @@
+# Project Requirements(dependencies): with Version
+ipywidgets
+notebook
+ensure
+
+# Add other dependencies:
+
+- e .
