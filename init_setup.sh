@@ -11,6 +11,7 @@ source .venv/Scripts/activate
 
 # Install dependencies
 echo "[$(date)]: Installing dependencies..."
+pip install --upgrade pip
 pip install -r requirements_dev.txt
 
 # Additional setup steps can go here

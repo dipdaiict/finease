@@ -12,7 +12,7 @@
 
 # Rename Cureent Brach Name as main. [git branch -M main]
 
-# Add Remote repository on local branch. [git remote add origin https://github.com/dipdaiict/fincalc.git]
+# Add Remote repository on local branch. [git remote add origin https://github.com/dipdaiict/finease.git]
 
 # Check the Configured Remote Repository. [git remote -v]
 

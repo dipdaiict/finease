@@ -1,0 +1,1 @@
+from finease.finease_func import simple_interest

@@ -6,8 +6,6 @@ ensure==1.0.4
 mkdocs==1.5.3
 mkdocs-material==9.5.12
 scipy==1.11.4
-
-# Development Requirements (dependencies):
 pytest==8.0.2
 tox==4.13.0
 black==24.2.0
