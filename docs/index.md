@@ -2,7 +2,7 @@
 
 **Version:** 0.0.1
 
-**Documentation:** [https://github.com/dipdaiict/finease](https://github.com/dipdaiict/finease)
+**Documentation:** [https://dipdaiict.github.io/finease/](https://dipdaiict.github.io/finease/)
 
 **Source Code:** [https://github.com/dipdaiict/finease](https://github.com/dipdaiict/finease)
 
