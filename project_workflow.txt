@@ -63,3 +63,24 @@ def test_empty():
      assert True
 
 
+# Preparing the Documentation: mkdocs
+----------------------------------------------------------------
+Steps to create documentation:
+----------------------------------------------------------------
+1. Clone the Documents Template from github: [https://github.com/dipdaiict/docsTemplate.git]
+2. Remove the .git filebeacuse it has own repo [rm -rf docsTemplate/.git] 
+3. Rename the file name [ci.yml] which is present in [docsTemplate/.github/workflow] as [docs.yml].
+   Also Change the Content/Workflow name inside the [docs.yml] fine which name: ci to name: docs-ci
+4. Move the [docs.yml] file into main workflow [finease\.github\workflows]
+5. Remove the Folder & Subdirectory [.github/workflows] in the docsTemplate.
+6. Remove the Below Files from docsTemplate folder: 
+    - docsTemplate/.gitignore 
+    - docsTemplate/init_setup.sh 
+    - docsTemplate/LICENSE 
+    - docsTemplate/README.md 
+    - docsTemplate/requirements.txt
+    - docsTemplate/.vscode
+7. Move all files in docsTemplate to Main Folder. & Delete docsTemplate
+8. Also do changes in [mkdocs.yml] in the root folder.
+9. Also do changes [index.md] File. 
+10. Now run the Code to watch docs in local server.
