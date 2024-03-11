@@ -22,10 +22,10 @@ pip install finease
 
 ## Documentation
 
-- Documentation: [Link to Documentation](https://github.com/dipdaiict/finease/docs)
-- Contribution Guidelines: [Link to Contribution Guidelines](https://github.com/dipdaiict/finease/contributing.md)
-- Bug Reports: [Link to Bug Reports](https://github.com/dipdaiict/finease/issues)
-- Report a Security Vulnerability: [Link to Security Vulnerability Reporting](https://github.com/dipdaiict/finease/security/advisories)
+- Documentation: [https://dipdaiict.github.io/finease/](https://dipdaiict.github.io/finease/)
+- Contribution Guidelines: [https://github.com/dipdaiict/finease/contributing.md](https://github.com/dipdaiict/finease/contributing.md)
+- Bug Reports: [https://github.com/dipdaiict/finease/issues](https://github.com/dipdaiict/finease/issues)
+- Report a Security Vulnerability: [https://github.com/dipdaiict/finease/security/advisories](https://github.com/dipdaiict/finease/security/advisories)
 
 ## Testing
 ```
